@@ -34,8 +34,8 @@ async def _(event):
                "**Choose one of the following reasons why you are here:**\n\n"
                "`1`. To chat with my master\n"
                "`2`. To Spam my master's Inbox.\n"
-               "`3`. To enquire something\n"
-               "`4`. To request something\n")
+               "`3`. To request Movie or Bot\n"
+               "`4`. To request some thing\n")
          ONE = ("`I Have Registered Your Request ! Don't Worry My Master Will Be Here Soon To Chat With You !` \n\n")
          TWO = ("`Please Don't Spam My Master Inbox ! You Have Been Reported Until Further Notice !`")
          FOUR = ("`Okay ! I See You Can Request Your Demands ! Please Wait Untill My Master Approves You` !")

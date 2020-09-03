@@ -1,4 +1,4 @@
-"""COMMAND : .lovestory"""
+"""COMMAND : .up"""
 
 from telethon import events
 
@@ -8,7 +8,7 @@ from userbot.utils import admin_cmd
 
 
 
-@borg.on(admin_cmd(pattern="lovestory"))
+@borg.on(admin_cmd(pattern="upload"))
 
 async def _(event):
 
@@ -30,27 +30,27 @@ async def _(event):
 
             "Your Request was registered",
             "Trying to download the movie.......📥",    
-            "Download Started\n(●○○○○○○○○○○)10%",    
-            "Download Started\n(●●○○○○○○○○○)20%",    
-            "Download Started\n(●●●○○○○○○○○)30%",    
+            "Download Started\n(●○○○○○○○○○)10%",    
+            "Download Started\n(●●○○○○○○○○)20%",    
+            "Download Started\n(●●●○○○○○○○)30%",    
             "Download Started\n(●●●●○○○○○○○)40%",    
-            "Download Started\n(●●●●●○○○○○○)50%",    
-            "Download Started\n(●●●●●●○○○○○)60%",    
-            "Download Started\n(●●●●●●●○○○○)70%",    
-            "Download Started\n(●●●●●●●●○○○)80%",    
-            "Download Started\n(●●●●●●●●●○○)90%",    
-            "Download Started\n(●●●●●●●●●●○)100%",
+            "Download Started\n(●●●●●○○○○○)50%",    
+            "Download Started\n(●●●●●●○○○○)60%",    
+            "Download Started\n(●●●●●●●○○○)70%",    
+            "Download Started\n(●●●●●●●●○○)80%",    
+            "Download Started\n(●●●●●●●●●○)90%",    
+            "Download Started\n(●●●●●●●●●●)100%",
             "Trying to upload to telegram.....📤",
-            "Upload Started\n[",
-            "  😍          😍 \n/👕\       /👗\ \n  👖           /|",
-            "  😘   😊 \n /👕\/👗\ \n   👖   /|",
-            " 😳  😁 \n /|\ /👙\ \n /     / |",    
-            "😈    /😰\ \n<|\      👙 \n /🍆    / |",
-            "😅 \n/(),✊😮 \n /\         _/\\/|",
-            "😎 \n/\\_,__😫 \n  //    //       \\",
-            "😖 \n/\\_,💦_😋  \n  //         //        \\",
-            "  😭      ☺️ \n  /|\   /(👶)\ \n  /!\   / \ ",
-            "The End 😂..."
+            "Upload Started\n(▣□□□□□□□□□)10%",
+            "Upload Started\n(▣▣□□□□□□□□)20%",
+            "Upload Started\n(▣▣▣□□□□□□□)30%",
+            "Upload Started\n(▣▣▣▣□□□□□□)40%",
+            "Upload Started\n(▣▣▣▣▣□□□□□)50%",
+            "Upload Started\n(▣▣▣▣▣▣□□□□)60%",
+            "Upload Started\n(▣▣▣▣▣▣▣□□□)70%",
+            "Upload Started\n(▣▣▣▣▣▣▣▣□□)80%",
+            "Upload Started\n(▣▣▣▣▣▣▣▣▣□)90%",
+            "Upload Started\n(▣▣▣▣▣▣▣▣▣▣)100%",
         ]
 
     for i in animation_ttl:

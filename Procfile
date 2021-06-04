@@ -1,1 +1,1 @@
-bot: python -m main_startup
+worker: python -m userbot
